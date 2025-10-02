@@ -3,58 +3,50 @@ import { Briefcase, GraduationCap } from "lucide-react";
 
 export const Experience = () => {
   const experiences = [
-    {
-      title: "Senior .NET Developer",
-      company: "Tech Solutions Inc.",
-      period: "2022 - Present",
-      description:
-        "Led development of enterprise web applications using ASP.NET Core and Web API. Mentored junior developers and implemented best practices for code quality and performance optimization.",
-      achievements: [
-        "Architected and developed 5+ enterprise applications",
-        "Improved API response time by 40% through optimization",
-        "Implemented CI/CD pipelines using Azure DevOps",
-      ],
-    },
-    {
-      title: "Full Stack Developer",
-      company: "Digital Innovations Ltd.",
-      period: "2020 - 2022",
-      description:
-        "Developed full-stack web applications using .NET framework and modern JavaScript frameworks. Collaborated with cross-functional teams to deliver high-quality software solutions.",
-      achievements: [
-        "Built and maintained 10+ web applications",
-        "Integrated third-party APIs and payment gateways",
-        "Reduced database query execution time by 35%",
-      ],
-    },
-    {
-      title: "Software Developer",
-      company: "StartUp Ventures",
-      period: "2018 - 2020",
-      description:
-        "Contributed to the development of web applications and RESTful APIs. Worked with SQL Server databases and implemented responsive user interfaces using Bootstrap.",
-      achievements: [
-        "Developed RESTful APIs for mobile applications",
-        "Implemented responsive designs for 15+ projects",
-        "Participated in code reviews and agile ceremonies",
-      ],
-    },
-  ];
+  {
+    title: "Software Engineer – Development",
+    company: "Perpetuuiti Technosoft Services Pvt Ltd, Tamil Nadu, India",
+    period: "May 2022 – May 2025",
+    description:
+      "Worked on enterprise software projects including Continuity Patrol 4.5v & 6.0v, and MHADA Dashboard. Focused on ASP.NET MVC, Web Services, SQL Server, and front-end development with HTML, CSS, and Bootstrap.",
+    achievements: [
+      "Developed 30+ new features based on client requirements",
+      "Built installers for Web and Windows applications",
+      "Achieved 92% resolution rate for technical issues",
+      "Implemented web services and database interactions with C# and SQL Server",
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company: "Avgira Technologies India Private Limited, Madurai, Tamil Nadu, India",
+    period: "May 2025 – Present",
+    description:
+      "Full Stack Developer for QGira HSE Navigator platform. Built backend services using ASP.NET Core Web API and responsive front-end using ASP.NET Core MVC. Contributed to analytics dashboards and real-time safety alert systems.",
+    achievements: [
+      "Developed and maintained scalable Web APIs for core HSE functionalities",
+      "Built dynamic, role-based MVC views with modular components",
+      "Integrated dashboards, reporting tools, and real-time alerts",
+      "Worked in agile sprints with regular deployments using Azure DevOps",
+    ],
+  },
+];
+
 
   const education = [
-    {
-      degree: "Master of Science in Computer Science",
-      institution: "University of Technology",
-      period: "2016 - 2018",
-      description: "Specialized in Software Engineering and Database Systems",
-    },
-    {
-      degree: "Bachelor of Science in Information Technology",
-      institution: "State University",
-      period: "2012 - 2016",
-      description: "Focus on Web Development and Programming",
-    },
-  ];
+  {
+    degree: "Master of Computer Applications (MCA)",
+    institution: "Nehru Memorial College, Puthanampatti - 621 007",
+    period: "Jun 2019 - Apr 2021",
+    description: "Specialized in Computer Science, focusing on advanced software development and application design.",
+  },
+  {
+    degree: "Bachelor of Computer Applications (BCA)",
+    institution: "Nehru Memorial College, Puthanampatti - 621 007",
+    period: "Jun 2016 - Apr 2019",
+    description: "Focused on computer science fundamentals, programming, and web development.",
+  },
+];
+
 
   return (
     <section id="experience" className="py-20">

@@ -31,7 +31,7 @@ export const Hero = () => {
               Hello, I'm
             </p>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-foreground">
-              Your Name
+              Mani Kandan
             </h1>
           </div>
 
@@ -44,7 +44,7 @@ export const Hero = () => {
 
           {/* Description */}
           <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Passionate about building scalable web applications with .NET, C#, and modern
+            Passionate about building scalable web applications with .NET, C#,MVC,WEB API and modern
             technologies. Specialized in creating robust backend solutions and elegant user
             interfaces.
           </p>
@@ -59,14 +59,18 @@ export const Hero = () => {
               <Mail className="mr-2 h-5 w-5" />
               Hire Me
             </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="w-full sm:w-auto border-2 hover:bg-accent/10 transition-all hover:scale-105"
-            >
-              <Download className="mr-2 h-5 w-5" />
-              Download Resume
-            </Button>
+              {/* Download Resume */}
+  <a href="/ManikandanResume.pdf" download>
+  <Button
+    size="lg"
+    variant="outline"
+    className="w-full sm:w-auto border-2 hover:bg-accent/10 transition-all hover:scale-105"
+  >
+    <Download className="mr-2 h-5 w-5" />
+    Download Resume
+  </Button>
+</a>
+
           </div>
 
           {/* Scroll Indicator */}
