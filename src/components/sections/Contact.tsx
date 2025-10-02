@@ -58,19 +58,20 @@ export const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "your.email@example.com",
-      link: "mailto:your.email@example.com",
+      value: "manidr1999@gmail.com",
+      link: "mailto:manidr1999@gmail.com",
+      
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "+1 (555) 123-4567",
+      value: "+91 8344062282",
       link: "tel:+15551234567",
     },
     {
       icon: MapPin,
       title: "Location",
-      value: "Your City, Country",
+      value: "Trichy, Tamil Nadu",
       link: null,
     },
   ];
@@ -79,12 +80,12 @@ export const Contact = () => {
     {
       icon: Github,
       name: "GitHub",
-      link: "https://github.com/yourusername",
+      link: "https://github.com/Manikandan015",
     },
     {
       icon: Linkedin,
       name: "LinkedIn",
-      link: "https://linkedin.com/in/yourusername",
+      link: "https://linkedin.com/in/manikandan-d-software-engineer",
     },
   ];
 

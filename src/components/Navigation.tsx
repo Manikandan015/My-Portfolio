@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { ThemeToggle } from "./ThemeToggle";
 import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
+import Logo from "../images/M.jpg";
+
 
 export const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -19,7 +21,7 @@ export const Navigation = () => {
     { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
-    { name: "Portfolio", href: "#portfolio" },
+    { name: "Projects", href: "#portfolio" },
     { name: "Experience", href: "#experience" },
     { name: "Contact", href: "#contact" },
   ];
@@ -51,7 +53,11 @@ export const Navigation = () => {
             }}
             className="text-xl sm:text-2xl font-bold text-gradient hover:scale-105 transition-transform cursor-pointer"
           >
-            &lt;Portfolio/&gt;
+  <img
+    src={Logo}
+    alt="Logo"
+    className="h-10 w-auto sm:h-12"
+  />
           </a>
 
           {/* Desktop Navigation */}
